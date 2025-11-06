@@ -1,0 +1,46 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#container {
+  display: flex;
+  height: 100vh;
+}
+#sidebar {
+  width: 250px;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+#content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+#searchBox {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+#categories li {
+  list-style: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: #333;
+}
+#categories li:hover {
+  text-decoration: underline;
+}
+.sub-post {
+  margin-left: 15px;
+  font-size: 0.95em;
+  color: blue;
+  cursor: pointer;
+}
+.sub-post:hover {
+  text-decoration: underline;
+}
+
