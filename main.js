@@ -1,7 +1,5 @@
 // 文章列表（手动添加）
 const posts = [
-  { title: "反悔贪心", category: "贪心与思维", file: "./posts/greedy_and_trick/regret_greedy.md" },
-  { title: "树上dp", category: "动态规划", file: "./posts/dp/dp_on_tree.md" },
 ];
 
 // 获取所有分类
